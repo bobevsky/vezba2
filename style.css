@@ -1,0 +1,423 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    height: 5vh;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+nav p {
+    float: left;
+    color: white;
+    padding-left: 20%;
+}
+
+nav p a {
+    color: white;
+}
+
+ul li a {
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.bg {
+    background-color: #f4511e;
+}
+
+.navgation {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.content1 {
+    width: 100%;
+    text-align: center;
+    height: 50vh;
+    padding-top: 50px;
+}
+
+.content1 p:nth-child(1) {
+    margin: 0;
+    padding-top: 10%;
+    color: white;
+    font-size: 50px;
+}
+
+.content1 p:nth-child(2) {
+    color: white;
+    font-size: 18px;
+}
+
+.content1 input {
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.content1 button {
+    background-color: #a83e1e;
+    padding: 6.5px 25px 6.5px 25px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #a83e1e;
+}
+
+.content2 {
+    height: 50vh;
+    width: 100%;
+}
+
+.left {
+    width: 70%;
+    float: left;
+    margin-left: 35px;
+    padding-right: 20px;
+    padding-top: 81px;
+}
+
+.font {
+    width: 25%;
+    float: left;
+    color: #f4511e;
+    padding-top: 100px;
+}
+
+.left p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.left p:nth-child(3) {
+    color: rgb(160, 151, 151);
+}
+
+.left button {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 151, 151);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content3 {
+    background-color: rgba(160, 151, 151, 0.2);
+    height: 50vh;
+    width: 100%;
+}
+
+.font1 {
+    padding-left: 35px;
+}
+
+.font2 {
+    width: 25%;
+    float: left;
+    color: #f4511e;
+    padding-top: 100px;
+}
+
+.content4 {
+    height: 60vh;
+    text-align: center;
+    width: 100%;
+}
+
+.sevices {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxIcon {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    margin: 30px 0px 30px 0px;
+}
+
+.boxIcon i {
+    color: #f4511e;
+}
+
+.boxIcon p:nth-child(3) {
+    color: grey;
+    padding-top: 20px;
+}
+
+.content5 {
+    background-color: rgba(160, 151, 151, 0.2);
+    height: 40vh;
+    width: 100%;
+}
+
+.contact {
+    width: 45%;
+    margin-left: 60px;
+    padding-top: 50px;
+    color: grey;
+    float: left;
+}
+
+.forma {
+    width: 50%;
+    float: left;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+form textarea {
+    display: block;
+}
+
+.forma {
+    margin-top: 45px;
+}
+
+.forma button {
+    margin-left: 95%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 151, 151);
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 95%;
+    height: 10vh;
+    text-align: center;
+}
+
+.footer i {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content1 {
+        width: 122.8%;
+    }
+    .navgation {
+        margin-left: -130px;
+    }
+    nav ul {
+        margin-right: -21%;
+    }
+    .font {
+        width: 30%;
+    }
+    .left button {
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(160, 151, 151);
+        padding: 10px 150px 10px 150px;
+        margin-top: 20px;
+    }
+    .left {
+        width: 55%;
+        margin-left: 60px;
+    }
+    .left p:nth-child(2) {
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+    }
+    .left p:nth-child(3) {
+        color: rgb(160, 151, 151);
+    }
+    .left h3 {
+        font-size: 30px;
+    }
+    .content2 {
+        margin-left: 54px
+    }
+    .content3 {
+        height: 60vh;
+        width: 122.8%;
+        margin-top: 209px;
+    }
+    .left1 {
+        width: 50%;
+        float: left;
+        padding-top: 0;
+        margin-right: 30px;
+    }
+    nav {
+        position: absolute;
+    }
+    .font i {
+        font-size: 250px;
+    }
+    .content4 {
+        height: 70vh;
+        text-align: center;
+        width: 122%;
+    }
+    .sevices h4 {
+        font-size: 30px;
+    }
+    .sevices p {
+        font-size: 20px;
+    }
+    .content5 {
+        height: 40vh;
+        width: 122.8%;
+    }
+    .contact {
+        width: 35%;
+        margin-left: 60px;
+        padding-top: 50px;
+        color: grey;
+        float: left;
+    }
+    .forma {
+        width: 50%;
+    }
+    form textarea {
+        width: 97%;
+        border-radius: 5px;
+        border: 1 px solid grey;
+    }
+    .forma button {
+        margin-left: 87%;
+    }
+    .footer {
+        width: 122.8%;
+        height: 20vh;
+        text-align: center;
+    }
+    .footer i {
+        margin-top: 30px;
+    }
+    form input {
+        display: inline-block;
+        width: 40%;
+        border-radius: 5px;
+        border: 1 px solid grey;
+        padding-right: 30px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav ul {
+        display: none;
+    }
+    nav p {
+        float: right;
+        padding-right: 270px;
+    }
+    .content1 {
+        width: 123%;
+    }
+    .content1 p:nth-child(2) {
+        margin-left: 79px;
+        font-size: 30px;
+        text-align: center;
+        width: 367px;
+    }
+    .content1 button {
+        padding: 6.5px 5px 6.5px 7px;
+    }
+    .content1 input {
+        width: 40%;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .left {
+        width: 90%;
+        margin-left: 10px;
+        padding-top: 27px;
+    }
+    .left h3 {
+        margin-bottom: 10px;
+    }
+    .font {
+        float: none;
+        margin-left: 25%;
+    }
+    .font i {
+        font-size: 150px;
+        margin-top: 72px;
+    }
+    .content3 {
+        height: 90vh;
+        margin-top: 104%;
+    }
+    .font2 {
+        padding-top: 40px;
+        text-align: center;
+        padding-left: 140px;
+    }
+    .left1 {
+        width: 90%;
+        margin-left: 35px;
+    }
+    .left p {
+        width: 90%;
+    }
+    .boxIcon {
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    .content5 {
+        margin-top: 145%;
+        height: 70vh;
+        width: 123%;
+    }
+    .contact {
+        width: 80%;
+        float: none;
+        margin-left: 50px;
+        padding-top: 32px;
+        font-size: 20px;
+    }
+    form input {
+        width: 100%;
+        margin-bottom: 0px;
+        height: 20px;
+        margin-top: 0;
+    }
+    form textarea {
+        margin-top: 15px;
+        width: 107%;
+    }
+    form {
+        margin-left: 30px;
+    }
+    .forma {
+        width: 83%;
+    }
+    .forma button {
+        margin-left: 96%;
+    }
+}
